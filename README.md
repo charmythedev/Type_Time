@@ -1,8 +1,8 @@
-Type Time ⌨️
+# Type Time ⌨️
 
 Type Time is a simple desktop typing practice application built with Python and Tkinter. It helps users improve typing speed by timing their typing sessions, calculating words per minute (WPM) in real time, and providing randomized writing prompts.
 
-Features
+### Features
 
 ⏱ Live Timer – Tracks elapsed typing time in minutes and seconds
 
@@ -14,7 +14,7 @@ Features
 
 🖥 Lightweight GUI – Built entirely with Tkinter, no external dependencies
 
-How It Works
+### How It Works
 
 Click Generate Prompt to open a new window containing a random typing prompt.
 
@@ -30,7 +30,7 @@ WPM is calculated using the formula:
 
 (words_typed / elapsed_seconds) * 60
 
-Requirements
+## Requirements
 
 Python 3.8+
 
@@ -46,7 +46,7 @@ git clone <your-repo-url>
 cd type-time
 
 
-Run the application:
+#### Run the application:
 
 python main.py
 
@@ -55,36 +55,36 @@ python main.py
 
 sudo apt install python3-tk
 
-File Overview
+## File Overview
 
-main.py – Contains:
+- main.py – Contains:
 
-GUI layout and widgets
+- GUI layout and widgets
 
-Timer logic
+- Timer logic
 
-WPM calculation
+- WPM calculation
 
-Prompt generation logic
+- Prompt generation logic
 
-Future Improvements (Ideas)
+### Future Improvements (Ideas)
 
-Load prompts from a JSON file
+- Load prompts from a JSON file
 
-Accuracy tracking (errors, corrections)
+- Accuracy tracking (errors, corrections)
 
-Session history and averages
+- Session history and averages
 
-Difficulty levels (short / long prompts)
+- Difficulty levels (short / long prompts)
 
-Dark mode UI
+- Dark mode UI
 
 
-License
+## License
 
 This project is open-source and free to use for learning or personal projects.
 
-Author
+## Author
 
 Created by Charmy
 Built as a lightweight typing practice tool using Python and Tkinter.
